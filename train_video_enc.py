@@ -72,7 +72,7 @@ def generate_train_data():
             audio_output=np.reshape(audio_output,(audio_output.shape[0],audio_input_shape[1]*audio_input_shape[2]))
             k=0
             while(1):
-                if (k+int(trn_batch))>video_input.shape[0]:
+                if (k+int(trn_batch))>=video_input.shape[0]:
                     augmented_vid=data_augmentation(video_input[k:,:,:,:,:])
                     yield (augmented_vid,audio_output[k:,:])
                     break
