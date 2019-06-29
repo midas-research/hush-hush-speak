@@ -3,7 +3,7 @@
 
 
 The Auxillary file containing the Reconstructed Audio for both English as well as Hindi Speech and the human annotations can be found at https://drive.google.com/open?id=1ZWS4L3SaZyb7SNwTaMpY96uJRYfFcVEG .
-Alternate Link: https://drive.google.com/drive/folders/1bvY9_1OT4xzDELnRnPJpWUFRdzQj0lu3?usp=sharing
+Alternate Link: https://drive.google.com/open?id=1bvY9_1OT4xzDELnRnPJpWUFRdzQj0lu3
 
 
 
