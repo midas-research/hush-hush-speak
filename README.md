@@ -45,3 +45,7 @@ We kindly remind you that if you find that our code/paper was useful for your re
   url={http://dx.doi.org/10.21437/Interspeech.2019-3269}
 }
 ```
+# Contact 
+
+You contact us at shashwatu.co@nsit.net.in, ykumar@adobe.com, dhruva15026@iiitd.ac.in (Please cc all of us for quick reply)
+
