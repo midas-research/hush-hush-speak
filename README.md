@@ -47,5 +47,5 @@ We kindly remind you that if you find that our code/paper was useful for your re
 ```
 # Contact 
 
-You contact us at shashwatu.co@nsit.net.in, ykumar@adobe.com, dhruva15026@iiitd.ac.in (Please cc all of us for quick reply)
+You contact us (the authors) at shashwatu.co@nsit.net.in, ykumar@adobe.com, dhruva15026@iiitd.ac.in (Please cc all of us for quick reply)
 
