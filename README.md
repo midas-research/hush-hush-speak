@@ -1,14 +1,19 @@
 # Hush-Hush Speak: Speech Reconstruction Using Silent Videos
 
+Code for the paper Hush-Hush Speak: Speech Reconstruction Using Silent Videos available at: https://www.isca-speech.org/archive/Interspeech_2019/pdfs/3269.pdf
+
+The paper details can also be accessed from: https://www.isca-speech.org/archive/Interspeech_2019/abstracts/3269.html
+
+Authors: Shashwat Uttam\*, Yaman Kumar\*, Dhruva Sahrawat\*, Mansi Aggarwal, Rajiv Ratn Shah, Debanjan Mahata, Amanda Stent 
+(\* --> Equal contribution)
+
+The supplementary (auxillary) folder containing the reconstructed audio for both English as well as Hindi speech and the human annotations can be found at https://drive.google.com/open?id=1ZWS4L3SaZyb7SNwTaMpY96uJRYfFcVEG .
+
+Alternate link: https://drive.google.com/open?id=1bvY9_1OT4xzDELnRnPJpWUFRdzQj0lu3
 
 
-The Auxillary file containing the Reconstructed Audio for both English as well as Hindi Speech and the human annotations can be found at https://drive.google.com/open?id=1ZWS4L3SaZyb7SNwTaMpY96uJRYfFcVEG .
 
-Alternate Link: https://drive.google.com/open?id=1bvY9_1OT4xzDELnRnPJpWUFRdzQj0lu3
-
-
-
-Instructions
+# Instructions
 
 1. First  download OuluVS2 
 2. Run https://github.com/midas-research/hush-hush-speak/blob/master/prepare_files.py
@@ -17,6 +22,26 @@ Instructions
 5.  Now run https://github.com/midas-research/hush-hush-speak/blob/master/train_video_enc.py to get the trained model and the predicted values for test set. 
 6. Use https://github.com/midas-research/hush-hush-speak/blob/master/audio_proc.py  functions like melspectrogram and inv_melspectrogram  for further evaluation. 
 
+# Dependencies
 
-Note: The code was validated for only the following package versions:
-Tensorflow version 1.11, Keras 2.2.4,   Cuda compilation tools release 9.0 (V9.0.176)
+Note that the code was validated for only the following package versions:
+```
+Tensorflow version 1.11
+Keras 2.2.4
+Cuda v9.0.176)
+```
+
+# Citation
+
+We kindly remind you that if you find that our code/paper was useful for your research, please cite our paper in the following manner:
+```
+@inproceedings{Uttam2019,
+  author={Shashwat Uttam and Yaman Kumar and Dhruva Sahrawat and Mansi Aggarwal and Rajiv Ratn Shah and Debanjan Mahata and Amanda Stent},
+  title={{Hush-Hush Speak: Speech Reconstruction Using Silent Videos}},
+  year=2019,
+  booktitle={Proc. Interspeech 2019},
+  pages={136--140},
+  doi={10.21437/Interspeech.2019-3269},
+  url={http://dx.doi.org/10.21437/Interspeech.2019-3269}
+}
+```
